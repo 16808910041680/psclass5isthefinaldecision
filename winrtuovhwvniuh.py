@@ -69,7 +69,7 @@ def hcf(num1, num2, is1prime, is2prime):
         elif is1prime == 0 and is2prime == 1:
             print(f"{num2} is a prime number, but {num1} is not, so the HCF is 1")
         elif is1prime == 0 and is2prime == 0:
-            print(f"Neither {num1} nor {num2} are prime numbers, which is a quite rare scenario, but possible. The HCF is still 1.")
+            print(f"Neither {num1} nor {num2} are prime numbers, which is a quite rare scenario, (not according to google btw) but possible. The HCF is still 1.")
     else: 
         print(f"The HCF of {num1} and {num2} is {hcf}")
     
@@ -93,7 +93,7 @@ def lcm (num1, num2):
         if is1prime == 0 and is2prime == 1:
             print(f"{num2} is a prime number, but {num1} is not, so the LCM is {num1} multiplied by {num2}, or {lcm}")
         if is1prime == 0 and is2prime == 0:
-            print(f"Neither {num1} nor {num2} are prime numbers, which is a quite rare scenario, but possible. The LCM is {num1} multiplied by {num2}, or {lcm}")
+            print(f"Neither {num1} nor {num2} are prime numbers, which is a quite rare scenario, (not according to google btw) but possible. The LCM is {num1} multiplied by {num2}, or {lcm}")
     else:
         print(f"The LCM of {num1} and {num2} is {lcm}.")
 
